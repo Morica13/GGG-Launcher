@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Guy Games</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header-img {
+      width: 150px;
+      max-width: 90vw;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,255,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .header-img:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      margin: 20px 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    .panel-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-bottom: 40px;
+      max-width: 1600px;
+    }
+
+    .panel {
+      width: 200px;
+      height: 400px;
+      background-color: #1a1a1a;
+      border: 2px solid #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .panel img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .panel-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 0 10px;
+      color: white;
+    }
+
+    .panel:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0,255,0,0.6);
+      background-color: #222;
+      border-color: #00ff00;
+    }
+
+    .exit {
+      margin-bottom: 30px;
+      font-size: 1.5em;
+      cursor: pointer;
+      color: #888;
+      transition: color 0.3s ease;
+    }
+
+    .exit:hover {
+      color: #ff0000;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🔼 Logo Section (non-clickable) -->
+  <div class="logo-wrapper">
+    <img src="https://cdn.discordapp.com/attachments/1403122400174014557/1422326603387633684/333333333333333333333333333.jpg?ex=68dc445f&is=68daf2df&hm=bb0cfe5a68ed145bf90dd5a7b21bf243999cc3400a0d046494da8beeb211e8fe" alt="Green Guy Games Logo" class="header-img" />
+  </div>
+
+  <!-- 🔼 Title -->
+  <h1>Green Guy Games download links</h1>
+
+  <!-- 🔽 Panels -->
+  <div class="panel-container">
+    <a href="https://www.mediafire.com/file/66ezw8qqnvyweqt/2d_zombie_game.zip/file" target="_blank" class="panel">
+      <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/817743206a6d6a2.png" alt="Game 1" />
+      <div class="panel-title">Zombie Apocolypse 2D</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 2" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 3" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 4" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 5" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 6" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 7" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+    <a href="https://blank.org/" target="_blank" class="panel">
+      <img src="http://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-HD-Image.png" alt="Game 8" />
+      <div class="panel-title">Coming Soon...</div>
+    </a>
+  </div>
+
+  <!-- 🔽 Exit Button -->
+  <div class="exit" onclick="alert('Exiting...')">EXIT</div>
+</body>
+</html>
+
+
